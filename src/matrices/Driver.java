@@ -26,7 +26,9 @@ public class Driver {
         } catch (DimensionesIncompatibles ex) {
             Logger.getLogger(Driver.class.getName()).log(Level.SEVERE, ex.getClass().getName(), ex);
         }
-        System.out.println("====================================");
+        System.out.println("====================================\n INVERSION DE MATRIZ 1");
+        System.out.println(m1.invertir());
+        System.out.println("====================================");        
     }
     
 }
